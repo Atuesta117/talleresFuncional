@@ -881,3 +881,7 @@ ADVERTENCIA: Unmatched cancel notification for request id 6
 2026.03.16 14:19:28 INFO  time: compiled talleresFuncional_dfcb79a7c1 in 89ms[0m
 2026.03.16 14:19:28 INFO  compiling talleresfuncional_dfcb79a7c1 (1 scala source)[0m
 2026.03.16 14:19:28 INFO  time: compiled talleresFuncional_dfcb79a7c1 in 0.18s[0m
+2026.03.16 15:32:48 INFO  compiling talleresfuncional_dfcb79a7c1 (1 scala source)[0m
+2026.03.16 15:32:48 INFO  Deduplicating compilation of talleresFuncional_dfcb79a7c1 from bsp client 'scala-cli 1.12.4' (since 1h 19m 44.287s)[0m
+2026.03.16 15:32:48 INFO  compiling talleresfuncional_dfcb79a7c1 (1 scala source)[0m
+2026.03.16 15:32:48 INFO  time: compiled talleresFuncional_dfcb79a7c1 in 0.61s[0m
