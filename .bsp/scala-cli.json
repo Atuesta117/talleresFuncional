@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/home/juan-jose/.cache/scalacli/local-repo/bin/scala-cli/scala-cli",
+    "bsp",
+    "--json-options",
+    "/home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-envs.json",
+    "/home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional"
+  ],
+  "version": "1.12.2",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
