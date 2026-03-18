@@ -1060,3 +1060,63 @@ ADVERTENCIA: Unmatched cancel notification for request id 614
 2026.03.18 14:03:05 INFO  Deduplicating compilation of talleresFuncional_dfcb79a7c1 from bsp client 'scala-cli 1.12.4' (since 32m 56.744s)[0m
 2026.03.18 14:03:05 INFO  compiling talleresfuncional_dfcb79a7c1 (2 scala sources)[0m
 2026.03.18 14:03:06 INFO  time: compiled talleresFuncional_dfcb79a7c1 in 1.04s[0m
+2026.03.18 14:03:41 INFO  Shutting down server[0m
+2026.03.18 14:03:41 INFO  Memory monitor stopped[0m
+2026.03.18 14:03:41 INFO  shutting down Metals[0m
+2026.03.18 14:03:41 INFO  Shut down connection with build server.[0m
+2026.03.18 14:03:41 INFO  Shutting down server[0m
+2026.03.18 14:03:41 INFO  Memory monitor stopped[0m
+2026.03.18 14:26:53 INFO  Started: Metals version 1.6.5 in folders '/home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional' for client Neovim 0.11.6+ge8b87a554f.[0m
+2026.03.18 14:26:53 INFO  Memory monitor started[0m
+2026.03.18 14:26:53 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.03.18 14:26:53 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/package.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 14:26:53 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/package.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 14:26:53 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/package.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 14:26:53 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/package.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 14:26:54 INFO  Attempting to connect to the build server...[0m
+2026.03.18 14:26:54 INFO  Running BSP server List(/home/juan-jose/.cache/scalacli/local-repo/bin/scala-cli/scala-cli, bsp, --json-options, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-options-v2.json, --json-launcher-options, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-launcher-options.json, --envs-file, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-envs.json, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional)[0m
+2026.03.18 14:26:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.metals/bsp.trace.json or /home/juan-jose/.cache/metals/bsp.trace.json[0m
+2026.03.18 14:26:54 INFO  time: Connected to build server in 0.6s[0m
+2026.03.18 14:26:54 INFO  Connected to Build server: scala-cli v1.12.4[0m
+2026.03.18 14:26:54 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/package.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 14:26:54 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/package.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 14:26:57 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2026.03.18 14:26:57 INFO  time: indexed workspace in 2.09s[0m
+mar 18, 2026 2:26:57 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3
+mar 18, 2026 2:28:02 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 228
+2026.03.18 14:28:03 INFO  compiling talleresfuncional_dfcb79a7c1 (1 scala source)[0m
+2026.03.18 14:28:03 INFO  Deduplicating compilation of talleresFuncional_dfcb79a7c1 from bsp client 'scala-cli 1.12.4' (since 1m 8.748s)[0m
+2026.03.18 14:28:03 INFO  compiling talleresfuncional_dfcb79a7c1 (1 scala source)[0m
+2026.03.18 14:28:03 INFO  time: compiled talleresFuncional_dfcb79a7c1 in 0.63s[0m
+2026.03.18 14:28:57 INFO  Shutting down server[0m
+2026.03.18 14:28:57 INFO  Memory monitor stopped[0m
+2026.03.18 14:28:57 INFO  shutting down Metals[0m
+2026.03.18 14:28:57 INFO  Shut down connection with build server.[0m
+2026.03.18 14:28:57 INFO  Shutting down server[0m
+2026.03.18 14:28:57 INFO  Memory monitor stopped[0m
+2026.03.18 14:53:07 INFO  Started: Metals version 1.6.5 in folders '/home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional' for client Neovim 0.11.6+ge8b87a554f.[0m
+2026.03.18 14:53:07 INFO  Memory monitor started[0m
+2026.03.18 14:53:07 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.03.18 14:53:07 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/package.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 14:53:07 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/package.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 14:53:07 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/package.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 14:53:07 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/package.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 14:53:07 INFO  Attempting to connect to the build server...[0m
+2026.03.18 14:53:07 INFO  Running BSP server List(/home/juan-jose/.cache/scalacli/local-repo/bin/scala-cli/scala-cli, bsp, --json-options, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-options-v2.json, --json-launcher-options, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-launcher-options.json, --envs-file, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-envs.json, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional)[0m
+2026.03.18 14:53:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.metals/bsp.trace.json or /home/juan-jose/.cache/metals/bsp.trace.json[0m
+2026.03.18 14:53:08 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/package.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 14:53:08 INFO  time: Connected to build server in 0.66s[0m
+2026.03.18 14:53:07 INFO  Connected to Build server: scala-cli v1.12.4[0m
+2026.03.18 14:53:08 INFO  time: Imported build in 0.19s[0m
+2026.03.18 14:53:11 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2026.03.18 14:53:11 INFO  time: indexed workspace in 2.42s[0m
+mar 18, 2026 2:53:11 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4
+mar 18, 2026 2:53:53 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 167
+2026.03.18 14:53:54 INFO  compiling talleresfuncional_dfcb79a7c1 (1 scala source)[0m
+2026.03.18 14:53:54 INFO  Deduplicating compilation of talleresFuncional_dfcb79a7c1 from bsp client 'scala-cli 1.12.4' (since 45.972s)[0m
+2026.03.18 14:53:54 INFO  compiling talleresfuncional_dfcb79a7c1 (1 scala source)[0m
+2026.03.18 14:53:54 INFO  time: compiled talleresFuncional_dfcb79a7c1 in 0.59s[0m

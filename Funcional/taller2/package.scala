@@ -4,7 +4,7 @@ package object ConjuntosDifusos {
 
   def pertenece(x: Int, s: ConjDifuso): Double = s(x)
 
- // import scala.math.pow
+  import scala.math.pow
 
 //punto 1 def grande
 
@@ -17,12 +17,13 @@ package object ConjuntosDifusos {
   }
 
   def interseccion(cd1: ConjDifuso, cd2: ConjDifuso): ConjDifuso = {
-    def calcular(n: Int): Double = { if (cd1(n) < cd2(n)) cd1(n)
-      else cd2(n)
+    def calcular(n: Int): Double = {
+      math.min(cd1(n), cd2(n))
     }
     calcular
   }
-def inclusion(cd1: ConjDifuso, cd2: ConjDifuso): Boolean = {
+
+  def inclusion(cd1: ConjDifuso, cd2: ConjDifuso): Boolean = {
     def iteracionCola(n: Int): Boolean = {
       if (n == 1001) true
       else if (cd1(n) <= cd2(n)) iteracionCola(n + 1)
@@ -39,15 +40,10 @@ def inclusion(cd1: ConjDifuso, cd2: ConjDifuso): Boolean = {
 //mis funciones a demostrar:
 
   def grande(d: Int, e: Int): ConjDifuso = {
-      def potencia(m: Double, n: Int): Double = {
-    if (n == 0) 1 else m * potencia(m, n - 1)
-  }
-
-
-  def calcular(n: Int): Double = {
+    def calcular(n: Int): Double = {
       val quotient = n.toDouble / (n + d)
       val exponent = e
-      val result = potencia(quotient, exponent).toDouble
+      val result = pow(quotient, exponent).toDouble
       result
     }
     calcular
@@ -56,7 +52,6 @@ def inclusion(cd1: ConjDifuso, cd2: ConjDifuso): Boolean = {
 //otra union jeje
 
   def union(cd1: ConjDifuso, cd2: ConjDifuso): ConjDifuso = n =>
-    if (cd1(n) > cd2(n)) cd1(n)
-    else cd2(n)
+    math.max(cd1(n), cd2(n))
 
 }
