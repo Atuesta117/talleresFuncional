@@ -1232,3 +1232,18 @@ java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) re
 2026.03.18 18:13:57 INFO  Deduplicating compilation of talleresFuncional_dfcb79a7c1 from bsp client 'scala-cli 1.12.4' (since 15m 56.267s)[0m
 2026.03.18 18:13:57 INFO  compiling talleresfuncional_dfcb79a7c1 (1 scala source)[0m
 2026.03.18 18:13:57 INFO  time: compiled talleresFuncional_dfcb79a7c1 in 0.81s[0m
+2026.03.18 18:14:45 INFO  Cancelling compilation on scala-cli server[0m
+2026.03.18 18:14:45 INFO  compiling talleresfuncional_dfcb79a7c1 (2 scala sources)[0m
+2026.03.18 18:14:45 INFO  Deduplicating compilation of talleresFuncional_dfcb79a7c1 from bsp client 'scala-cli 1.12.4' (since 16m 44.741s)[0m
+2026.03.18 18:14:45 INFO  compiling talleresfuncional_dfcb79a7c1 (2 scala sources)[0m
+2026.03.18 18:14:45 INFO  time: compiled talleresFuncional_dfcb79a7c1 in 0.61s[0m
+2026.03.18 18:14:46 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2026.03.18 18:14:46 INFO  time: indexed workspace in 0.93s[0m
+2026.03.18 18:14:46 WARN  no build target for: /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc[0m
+2026.03.18 18:14:46 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.8.2[0m
+2026.03.18 18:14:54 WARN  no build target for: /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc[0m
+2026.03.18 18:14:55 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.8.2[0m
+2026.03.18 18:14:55 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.8.2[0m
+2026.03.18 18:14:59 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.8.2[0m
+2026.03.18 18:15:01 WARN  no build target for: /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc[0m
+2026.03.18 18:15:01 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.8.2[0m

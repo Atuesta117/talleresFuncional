@@ -1,9 +1,9 @@
 package Funcional.taller2
 
 
-final class test$_ {
-def args = test_sc.args$
-def scriptPath = """Funcional/taller2/test.sc"""
+final class pruebas$_ {
+def args = pruebas_sc.args$
+def scriptPath = """Funcional/taller2/pruebas.sc"""
 /*<script>*/
 import ConjuntosDifusos._
 
@@ -106,7 +106,7 @@ igualdad(mm2, interseccion(mm2, vacio)) // esperado: false
 /*</script>*/ /*<generated>*//*</generated>*/
 }
 
-object test_sc {
+object pruebas_sc {
   private var args$opt0 = Option.empty[Array[String]]
   def args$set(args: Array[String]): Unit = {
     args$opt0 = Some(args)
@@ -116,7 +116,7 @@ object test_sc {
     sys.error("No arguments passed to this script")
   }
 
-  lazy val script = new test$_
+  lazy val script = new pruebas$_
 
   def main(args: Array[String]): Unit = {
     args$set(args)
@@ -124,5 +124,5 @@ object test_sc {
   }
 }
 
-export test_sc.script as `test`
+export pruebas_sc.script as `pruebas`
 
