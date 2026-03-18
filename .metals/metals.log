@@ -1120,3 +1120,115 @@ ADVERTENCIA: Unmatched cancel notification for request id 167
 2026.03.18 14:53:54 INFO  Deduplicating compilation of talleresFuncional_dfcb79a7c1 from bsp client 'scala-cli 1.12.4' (since 45.972s)[0m
 2026.03.18 14:53:54 INFO  compiling talleresfuncional_dfcb79a7c1 (1 scala source)[0m
 2026.03.18 14:53:54 INFO  time: compiled talleresFuncional_dfcb79a7c1 in 0.59s[0m
+2026.03.18 14:54:42 INFO  Shutting down server[0m
+2026.03.18 14:54:42 INFO  Memory monitor stopped[0m
+2026.03.18 14:54:42 INFO  shutting down Metals[0m
+2026.03.18 14:54:42 INFO  Shut down connection with build server.[0m
+2026.03.18 14:54:42 INFO  BSP server: Mar 18, 2026 2:54:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2026.03.18 14:54:42 INFO  BSP server: WARNING: Notification threw an exception: {[0m
+2026.03.18 14:54:42 INFO  BSP server:   "jsonrpc": "2.0",[0m
+2026.03.18 14:54:42 INFO  BSP server:   "method": "build/exit",[0m
+2026.03.18 14:54:42 INFO  BSP server:   "params": null[0m
+2026.03.18 14:54:42 INFO  BSP server: }[0m
+2026.03.18 14:54:42 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at java.base@17.0.9/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at java.base@17.0.9/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at java.base@17.0.9/java.lang.Thread.run(Thread.java:840)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:807)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:210)[0m
+2026.03.18 14:54:42 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at java.base@17.0.9/java.lang.reflect.Method.invoke(Method.java:568)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	... 13 more[0m
+2026.03.18 14:54:42 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:471)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)[0m
+2026.03.18 14:54:42 INFO  BSP server: 	... 15 more[0m
+2026.03.18 14:54:42 INFO  BSP server: [0m
+2026.03.18 14:54:42 INFO  Shutting down server[0m
+2026.03.18 14:54:42 INFO  Memory monitor stopped[0m
+2026.03.18 17:47:56 INFO  Started: Metals version 1.6.5 in folders '/home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional' for client Neovim 0.11.6+ge8b87a554f.[0m
+2026.03.18 17:47:56 INFO  Memory monitor started[0m
+2026.03.18 17:47:56 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.03.18 17:47:56 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/package.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 17:47:56 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/package.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 17:47:56 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/package.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 17:47:56 INFO  Attempting to connect to the build server...[0m
+2026.03.18 17:47:56 INFO  Running BSP server List(/home/juan-jose/.cache/scalacli/local-repo/bin/scala-cli/scala-cli, bsp, --json-options, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-options-v2.json, --json-launcher-options, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-launcher-options.json, --envs-file, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-envs.json, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional)[0m
+2026.03.18 17:47:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.metals/bsp.trace.json or /home/juan-jose/.cache/metals/bsp.trace.json[0m
+2026.03.18 17:47:57 INFO  BSP server: Starting compilation server[0m
+2026.03.18 17:47:58 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 17:47:58 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 17:47:58 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 17:47:59 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 17:48:00 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 17:48:00 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 17:48:01 INFO  time: Connected to build server in 4.43s[0m
+2026.03.18 17:48:01 INFO  Connected to Build server: scala-cli v1.12.4[0m
+2026.03.18 17:48:01 INFO  time: Imported build in 0.15s[0m
+2026.03.18 17:48:03 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2026.03.18 17:48:03 INFO  time: indexed workspace in 2.04s[0m
+2026.03.18 17:57:53 INFO  Shutting down server[0m
+2026.03.18 17:57:53 INFO  Memory monitor stopped[0m
+2026.03.18 17:57:53 INFO  shutting down Metals[0m
+2026.03.18 17:57:53 INFO  Shut down connection with build server.[0m
+2026.03.18 17:57:53 INFO  Shutting down server[0m
+2026.03.18 17:57:53 INFO  Memory monitor stopped[0m
+2026.03.18 17:57:53 INFO  Cancelling compilation on scala-cli server[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@71423665[Shutting down, pool size = 4, active threads = 4, queued tasks = 0, completed tasks = 7508]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:462)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$DefaultPromise.linkRootOf(Promise.scala:380)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:525)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@71423665[Shutting down, pool size = 4, active threads = 4, queued tasks = 0, completed tasks = 7508]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:462)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:539)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026.03.18 17:58:00 INFO  Started: Metals version 1.6.5 in folders '/home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional' for client Neovim 0.11.6+ge8b87a554f.[0m
+2026.03.18 17:58:00 INFO  Memory monitor started[0m
+2026.03.18 17:58:00 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.03.18 17:58:00 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 17:58:00 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 17:58:00 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 17:58:00 INFO  no build target found for /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/Funcional/taller2/test.sc. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.03.18 17:58:00 INFO  Attempting to connect to the build server...[0m
+2026.03.18 17:58:00 INFO  Running BSP server List(/home/juan-jose/.cache/scalacli/local-repo/bin/scala-cli/scala-cli, bsp, --json-options, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-options-v2.json, --json-launcher-options, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-launcher-options.json, --envs-file, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.scala-build/ide-envs.json, /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional)[0m
+2026.03.18 17:58:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.metals/bsp.trace.json or /home/juan-jose/.cache/metals/bsp.trace.json[0m
+2026.03.18 17:58:01 INFO  time: Connected to build server in 0.64s[0m
+2026.03.18 17:58:00 INFO  Connected to Build server: scala-cli v1.12.4[0m
+2026.03.18 17:58:00 INFO  compiling talleresfuncional_dfcb79a7c1 (1 scala source)[0m
+2026.03.18 17:58:04 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2026.03.18 17:58:04 INFO  time: indexed workspace in 3.37s[0m
+2026.03.18 17:58:06 INFO  time: compiled talleresFuncional_dfcb79a7c1 in 4.52s[0m
+2026.03.18 18:13:57 INFO  compiling talleresfuncional_dfcb79a7c1 (1 scala source)[0m
+2026.03.18 18:13:57 INFO  Deduplicating compilation of talleresFuncional_dfcb79a7c1 from bsp client 'scala-cli 1.12.4' (since 15m 56.267s)[0m
+2026.03.18 18:13:57 INFO  compiling talleresfuncional_dfcb79a7c1 (1 scala source)[0m
+2026.03.18 18:13:57 INFO  time: compiled talleresFuncional_dfcb79a7c1 in 0.81s[0m
