@@ -29,9 +29,10 @@ val ca3 = cercanosA(3, 4)
 ca3(3)
 ca3(4)
 ca3(2)
-ca3(5)
+ca3(6)
 pertenece(3, ca3)
 pertenece(8, ca3)
+//casos de prueba grande,
 
 val g1 = grande(1, 10)
 val g2 = grande(2, 10)

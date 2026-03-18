@@ -70,3 +70,18 @@ Caused by: java.nio.channels.ClosedByInterruptException
 	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1010)
 	at org.h2.mvstore.DataUtils.writeFully(DataUtils.java:474)
 	... 51 more
+2026-03-16 22:41:57.816086-05:00 database: opening /home/juan-jose/Documentos/Codigos/Universidad/CuartoSemestre/funcionalConcurrente/talleresFuncional/.metals/metals
+org.h2.message.DbException: Error abriendo la base de datos: "Sleep interrupted"
+Error opening database: "Sleep interrupted" [8000-240]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.store.FileLock.getExceptionFatal(FileLock.java:429)
+	at org.h2.store.FileLock.sleep(FileLock.java:424)
+	at org.h2.store.FileLock.lockFile(FileLock.java:334)
+	at org.h2.store.FileLock.lock(FileLock.java:110)
+	at org.h2.engine.Database.<init>(Database.java:319)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:350)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.Driver.connect(Driver.java:59)
