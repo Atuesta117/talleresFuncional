@@ -29,7 +29,41 @@ val ca3 = cercanosA(3, 4)
 val universo: ConjDifuso = _ => 1.0
 val vacio: ConjDifuso = _ => 0.0
 
+//GRANDE
+
+// Caso 1: d=1, e=2. (ambos parámetros pequeños)
+val g0 = grande(1,2)
+g0(5)   // 0.6944444444444445
+g0(10)  // 0.8264462809917354
+g0(100) // 0.9802960494069208
+
+//Caso 2: d=2, e=10. (número e más grande)
+val g1 = grande(2,10)
+g1(5)   // 0.03457161303360778
+g1(10)  // 0.1615055828898458
+g1(100) // 0.8203482998751549
+
+//Caso 3: d=20, e=12 (ambos parámetros grandes)
+val g2 = grande(20,12)
+g2(5)   // ≈ 0.0 (4.09e-9, prácticamente cero)
+g2(10)  // ≈ 0.0 (1.88e-6, prácticamente cero)
+g2(100) // 0.11215665478461515
+
+//Caso 4: d=1, e=100 (parámetro e muy grande)
+val g3 = grande(1,100)
+g3(5)   // ≈ 0.0 (1.20e-8, prácticamente cero)
+g3(10)  // 7.256571590148175e-05
+g3(100) // 0.3697112123291189
+
+//Caso 5: d=50, e=10. (d muy grande, e grande)
+val g4 = grande(50,10)
+g4(5)   // ≈ 0.0 (3.85e-11, prácticamente cero)
+g4(10)  // ≈ 0.0 (1.65e-8, prácticamente cero)
+g4(100) // 0.017341529915832606
+
+
 //COMPLEMENTO 
+
 val cmm2 = complemento(mm2)
 val cca3 = complemento(ca3)
 
