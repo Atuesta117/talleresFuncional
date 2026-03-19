@@ -76,6 +76,26 @@ cca3(3) // esperado: 0.0
 cca3(8) // esperado: 0.99
 
 
+//UNION
+
+val u1 = union(g1, g2)
+val u2 = union(g1, complemento(g1))
+// Caso 1: Unión donde g1 domina completamente sobre g2 (número pequeño)
+pertenece(5, u1)   // 0.03457161303360778  
+
+//Caso 2: Unión donde g1 domina completamente sobre g2 (número grande)
+pertenece(100, u1) // 0.8203482998751549  
+
+//Caso 3: Unión de un conjunto con su complemento (número pequeño)
+pertenece(5, u2)   // 0.9654283869663922  
+
+//Caso 4: Unión de un conjunto con su complemento (punto medio)
+pertenece(50, u2)  // 0.6755641688257991  
+
+//Caso 5: Unión de un conjunto con su complemento (número grande)
+pertenece(500, u2) // 0.9608661010102667                     
+
+
 //INTERSECCION
 
 val mm2_y_ca3 = interseccion(mm2, ca3)
@@ -106,6 +126,23 @@ pertenece(5, interseccion(mm2, universo)) // esperado: 0.75
 // Caso 8: interseccion con el conjunto vacio (funcion que siempre da 0.0)
 pertenece(5, interseccion(mm2, vacio)) // esperado: 0.0
 
+
+//INCLUSION 
+
+//Caso 1: Inclusión donde g2 está contenido en g1
+inclusion(g2, g1)       // true  
+
+//Caso 2: Inclusión donde g1 NO está contenido en g2
+inclusion(g1, g2)       // false  
+
+//Caso 3: Inclusión de un conjunto en sí mismo
+inclusion(g1, g1)       // true  
+
+//Caso 4: Inclusión del conjunto vacío en cualquier conjunto
+inclusion(vacio, g1)    // true 
+
+//Caso 5: Inclusión de cualquier conjunto en el universo
+inclusion(g1, universo) // true  
 
 //IGUALDAD
 
