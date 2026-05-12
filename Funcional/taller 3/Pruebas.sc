@@ -2,7 +2,7 @@
 val expr1=Suma(Atomo( 'x') , Numero(2))
 val expr2=Prod (Atomo('x') , Atomo('x'))
 val expr3= Suma( expr1 , Expo(expr2 , Numero(5)) )
-val expr4= Logaritmo(Atomo('x') )
+val expr4= Logaritmo(Expo(Atomo('x'), Numero(3)))
 val expr5=Prod(Div( expr1 , expr2 ) , Resta( expr3 , expr4 ) )
 val expr6=Expo(Atomo('x') , Numero(3))
 //casos de prueba ejercicio 1:
@@ -13,11 +13,14 @@ val expr6=Expo(Atomo('x') , Numero(3))
  mostrar(Expo(Atomo('x'), Numero(3.0)))
  mostrar(Logaritmo(Atomo('x')))
  mostrar(Suma(Suma(Atomo('x'), Numero(1.0)), Numero(2.0)))
+ 
 //Casos Prueba derivar 
-mostrar (derivar( expr6 , Atomo('x')))
-mostrar (derivar( expr2 , Atomo('x')))
-mostrar (derivar(expr2 ,Atomo('y')))
-mostrar (derivar(Suma(Atomo('k') , Prod(Numero (3.0) , Atomo('x'))) , Atomo('x')))
+mostrar (derivar( expr6 , Atomo('x')))//Expo
+mostrar (derivar( expr2 , Atomo('x')))//Prod 
+mostrar (derivar(expr2 ,Atomo('y')))//Prod diferente atomo, lo trata como constante 
+mostrar (derivar(expr5 ,Atomo('x')))//Prod, Div y Resta
+mostrar (derivar(expr4 ,Atomo('x')))//Logaritmo y Expo 
+mostrar (derivar(Suma(Atomo('k') , Prod(Numero (3.0) , Atomo('x'))) , Atomo('x')))//Suma y Prod
 
 //casos de prueba ejercicio 3:
 
