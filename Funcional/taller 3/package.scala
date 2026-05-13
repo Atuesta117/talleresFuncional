@@ -59,7 +59,6 @@ package objetc Newton{
 
 }
 
-
   //Limpiar 
   def limpiar(e: Expr): Expr = e match {
     case Suma(e1,e2) => (limpiar(e1), limpiar(e2)) match{
@@ -76,6 +75,7 @@ package objetc Newton{
     }
     case Div(e1,e2) => (limpiar(e1), limpiar(e2)) match{
       case(Numero(0.0), e) => Numero(0.0)
+      case(e, Numero(1.0)) => e
       case(e1,e2) => Div(e1,e2)
     }
       case Expo(e1,e2) => (limpiar(e1), limpiar(e2)) match{
@@ -91,7 +91,7 @@ package objetc Newton{
 }
     case Numero(e) => Numero(e)
     case Atomo(x) => Atomo(x)
-
+    case Logaritmo(e1) => Logaritmo(limpiar(e1))
 
   }
 
