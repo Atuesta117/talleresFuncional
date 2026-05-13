@@ -1,3 +1,5 @@
+import Newton . _
+
 //Expresione 
 val exprSuma   = Suma(Suma(Numero(0.0), Atomo('x')), Suma(Atomo('y'), Numero(0.0)))
 val exprProd   = Prod(Prod(Numero(1.0), Atomo('x')), Prod(Atomo('y'), Numero(1.0)))
@@ -62,6 +64,9 @@ mostrar(limpiar(exprResta))
 mostrar(derivar(exprProd2, Atomo('y')))
 mostrar(limpiar(derivar(exprProd2, Atomo('y'))))
 
+def buenaAprox ( f : Expr , a : Atomo , d : Double ) : Boolean = {
+evaluar(f,a,d) < 0.001
+}
 //Casos algoritmo Newton 
 
 val e1 = Resta(Expo(Atomo('x'), Numero(2.0)), Numero(4.0))
