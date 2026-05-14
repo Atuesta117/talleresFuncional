@@ -65,7 +65,7 @@ mostrar(derivar(exprProd2, Atomo('y')))
 mostrar(limpiar(derivar(exprProd2, Atomo('y'))))
 
 def buenaAprox ( f : Expr , a : Atomo , d : Double ) : Boolean = {
-evaluar(f,a,d) < 0.001
+  Math.abs(evaluar(f, a, d)) < 0.001
 }
 //Casos algoritmo Newton 
 

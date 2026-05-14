@@ -97,15 +97,15 @@ package objetc Newton{
 
 
   //Raiz Newton 
-  def raizNewton(f: Expr, a: Atomo, x0: Double,
+def raizNewton(f: Expr, a: Atomo, x0: Double,
                ba: (Expr, Atomo, Double) => Boolean): Double = {
-  if (ba(f, a, x0))
-    x0
-  else {
-    val fx  = evaluar(f, a, x0)                        
-    val fpx = evaluar(derivar(f, a), a, x0)            
-    val x1  = x0 - (fx / fpx)                          
-    raizNewton(f, a, x1, ba)                           
+  ba(f, a, x0) match {
+    case true => x0
+    case false =>
+      val fx  = evaluar(f, a, x0)
+      val fpx = evaluar(derivar(f, a), a, x0)
+      val x1  = x0 - (fx / fpx)
+      raizNewton(f, a, x1, ba)
   }
 }
 }
